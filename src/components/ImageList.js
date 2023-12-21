@@ -3,7 +3,7 @@ import React from "react";
 export default function ImageList({ imagelist }) {
     const divCount = 3;
 
-    // Calculate the maximum number of images in each div
+    // Calculate the maximum number of images in each div.
     const maxImagesPerDiv = Math.ceil(imagelist.length / divCount);
   
     // Create an array of divs, each containing a subset of images
